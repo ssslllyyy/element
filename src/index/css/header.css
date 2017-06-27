@@ -1,0 +1,104 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5.71733rem;
+  background: url("../img/1.jpg");
+  background-size: 100% 100%; }
+  header .header-background {
+    width: 100%;
+    height: 5.71733rem;
+    background: rgba(7, 17, 27, 0.5);
+    position: relative;
+    top: 0;
+    left: 0;
+    filter: blur(10px); }
+  header .header-logo {
+    position: absolute;
+    width: 2.73067rem;
+    height: 2.73067rem;
+    background: url("../img/1.jpg");
+    background-size: 100% 100%;
+    top: 1.024rem;
+    left: 1.024rem;
+    border-radius: 0.08533rem; }
+  header .header-title {
+    position: absolute;
+    top: 1.10933rem;
+    left: 4.43733rem; }
+    header .header-title img {
+      width: 1.28rem;
+      height: 0.768rem; }
+    header .header-title p {
+      font-size: 0.68267rem;
+      color: white;
+      font-weight: bold;
+      line-height: 0.768rem;
+      margin-top: -0.896rem;
+      margin-left: 1.536rem; }
+  header .header-title1 {
+    font-size: 0.512rem;
+    color: white;
+    font-weight: 200;
+    line-height: 24px;
+    position: absolute;
+    top: 2.13333rem;
+    left: 4.43733rem; }
+  header .header-title2 {
+    position: absolute;
+    top: 2.77333rem;
+    left: 4.43733rem; }
+    header .header-title2 img {
+      width: 0.512rem;
+      height: 0.512rem; }
+    header .header-title2 .num {
+      width: 1.96267rem;
+      height: 1.06667rem;
+      font-size: 0.42667rem;
+      color: white;
+      font-weight: 200;
+      line-height: 1.06667rem;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 1.06667rem;
+      margin-left: 8.10667rem;
+      text-align: center; }
+    header .header-title2 p {
+      font-size: 0.42667rem;
+      color: white;
+      font-weight: 200;
+      line-height: 0.512rem;
+      margin-top: -0.59733rem;
+      margin-left: 0.68267rem; }
+  header .header-bottom {
+    width: 100%;
+    height: 1.19467rem;
+    background-color: rgba(7, 17, 27, 0.2);
+    position: absolute;
+    top: 4.52267rem;
+    left: 0;
+    overflow: hidden; }
+    header .header-bottom img {
+      width: 0.896rem;
+      height: 0.512rem;
+      background-size: 100% 100%;
+      margin-left: 0.512rem; }
+    header .header-bottom p {
+      font-size: 0.42667rem;
+      color: white;
+      font-weight: 200;
+      margin-top: -0.59733rem;
+      margin-left: 1.57867rem;
+      width: 11.84rem;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap; }
+    header .header-bottom span {
+      font-size: 0.42667rem;
+      color: white;
+      font-weight: 200;
+      margin-top: -0.42667rem;
+      margin-left: 13.86667rem;
+      display: block; }
+
+/*# sourceMappingURL=header.css.map */

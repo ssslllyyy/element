@@ -1,0 +1,28 @@
+@function rem($px){
+  @return $px/46.875+rem
+}
+.nav-header{
+  background: white;
+  position: fixed;
+  left:0;
+  top:rem(270);
+  width:100%;
+  height:rem(80);
+  border-bottom:1px solid rgba(7,17,27,0.1);
+  .nav-list{
+    width:100%;
+    height:rem(80);
+    li:first-child{
+      color:rgb(240,20,20)
+    }
+    li{
+      float: left;
+      width:33.3%;
+      font-size: rem(28);
+      color:rgb(77,85,93);
+      text-align: center;
+      line-height: rem(80);
+    }
+  }
+}
+

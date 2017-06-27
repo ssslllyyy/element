@@ -1,0 +1,120 @@
+@function rem($px){
+  @return $px/46.875+rem
+}
+header{
+  position: fixed;
+  top:0;
+  left:0;
+ width:100%;
+ height:rem(268);
+  background: url("../img/1.jpg");
+  background-size: 100% 100%;
+  .header-background{
+    width:100%;
+    height:rem(268);
+    background: rgba(7,17,27,0.5);
+    position: relative;
+    top:0;
+    left:0;
+    filter: blur(10px);
+  }
+  .header-logo{
+    position: absolute;
+    width:rem(128);
+    height:rem(128);
+    background: url("../img/1.jpg");
+    background-size: 100% 100%;
+    top:rem(48);
+    left:rem(48);
+    border-radius: rem(4);
+  }
+  .header-title{
+    position: absolute;
+    top:rem(52);
+    left:rem(208);
+    img{
+      width:rem(60);
+      height:rem(36)
+    }
+    p{
+      font-size: rem(32);
+      color:rgb(255,255,255);
+      font-weight: bold;
+      line-height: rem(36);
+      margin-top: rem(-42);
+      margin-left: rem(72);
+    }
+  }
+  .header-title1{
+    font-size: rem(24);
+    color:rgb(255,255,255);
+    font-weight: 200;
+    line-height: 24px;
+    position: absolute;
+    top:rem(100);
+    left:rem(208);
+  }
+  .header-title2{
+    position: absolute;
+    top:rem(130);
+    left: rem(208);
+    img{
+      width:rem(24);
+      height:rem(24);
+    }
+    .num{
+      width:rem(92);
+      height:rem(50);
+      font-size: rem(20);
+      color:rgb(255,255,255);
+      font-weight: 200;
+      line-height: rem(50);
+      background: rgba(0,0,0,0.2);
+      border-radius: rem(50);
+      margin-left: rem(380);
+      text-align: center;
+    }
+    p{
+      font-size: rem(20);
+      color:rgb(255,255,255);
+      font-weight: 200;
+      line-height: rem(24);
+      margin-top: rem(-28);
+      margin-left: rem(32);
+    }
+  }
+  .header-bottom{
+    width:100%;
+    height:rem(56);
+    background-color: rgba(7,17,27,0.2);
+    position: absolute;
+    top:rem(212);
+    left:0;
+    overflow: hidden;
+    img{
+      width:rem(42);
+      height:rem(24);
+      background-size: 100% 100%;
+     margin-left: rem(24);
+    }
+    p{
+      font-size: rem(20);
+      color:rgb(255,255,255);
+      font-weight: 200;
+      margin-top: rem(-28);
+      margin-left: rem(74);
+      width:rem(555);
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    span{
+      font-size: rem(20);
+      color:rgb(255,255,255);
+      font-weight: 200;
+      margin-top: rem(-20);
+      margin-left: rem(650);
+      display: block;
+    }
+  }
+}
