@@ -3,7 +3,7 @@
   <div class="footer">
   <div class="footer-circle">
   <div class="footer-small-circle">
-
+    <i class="fa fa-shopping-cart"></i>
   </div>
 
   </div>
@@ -29,5 +29,5 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+@import "../css/font-awesome.min.css";
 </style>

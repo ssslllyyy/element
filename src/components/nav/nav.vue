@@ -2,9 +2,9 @@
 <div>
   <div class="nav-header">
     <ul class="nav-list">
-      <li>商品</li>
-      <li>评价</li>
-      <li>商家</li>
+      <li><router-link to="/page">商品</router-link></li>
+      <li> <router-link to="/evalute">评价</router-link></li>
+      <li ><router-link to="/custor">商家</router-link> </li>
     </ul>
   </div>
 </div>

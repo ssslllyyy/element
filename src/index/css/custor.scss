@@ -1,0 +1,8 @@
+@function rem($px){
+  @return $px/46.875+rem
+}
+.custor-store{
+  width:100%;
+  height:rem(335);
+  border-bottom: 1px solid #e6e7e8;
+}

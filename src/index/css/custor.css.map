@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,aAAa;EACX,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,UAAQ;EACf,aAAa,EAAE,iBAAiB",
+"sources": ["custor.scss"],
+"names": [],
+"file": "custor.css"
+}

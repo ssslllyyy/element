@@ -2,8 +2,9 @@
   <div>
     <v-header></v-header>
     <v-nav></v-nav>
-    <v-page></v-page>
+    <router-view></router-view>
     <v-footer></v-footer>
+     <!--<v-detail></v-detail>-->
   </div>
 
 </template>
@@ -11,14 +12,14 @@
 <script>
 import header from './components/header/header.vue';
 import nav from './components/nav/nav.vue';
-import page from './components/page/page.vue';
 import footer from './components/footer/footer.vue';
+import detail from './components/detail/detail.vue';
 export default {
   components: {
     'v-header': header,
     'v-nav': nav,
-    'v-page': page,
-    'v-footer': footer
+    'v-footer': footer,
+    'v-detail': detail
   }
 };
 window.addEventListener('orientationchange', setRem);
@@ -37,4 +38,5 @@ function setRem() {
 @import "index/css/nav.css";
 @import "index/css/page.css";
 @import "index/css/footer.css";
+@import "index/css/evalute.css";
 </style>

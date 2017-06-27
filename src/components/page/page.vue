@@ -9,7 +9,7 @@
       </div>
       <div class="page-hot-style">
         <div class="page-box">
-          <img src="../../index/img/special_3@2x.png" alt="">
+          <img src="../../index/img/special_1@2x.png" alt="">
           <p class="first">单人特</p>
           <p>色套餐</p>
         </div>
@@ -47,7 +47,7 @@
       <ul class="page-main-list">
         <li>
           <div class="li-left">
-            <img src="../../index/img/1.png" alt="">
+            <img src="../../index/img/6.png" alt="">
           </div>
           <div class="li-right">
             <p>莲子核桃黑米粥</p>
@@ -84,7 +84,7 @@
           </li>
           <li>
             <div class="li-left">
-              <img src="../../index/img/3.png" alt="">
+              <img src="../../index/img/5.png" alt="">
             </div>
             <div class="li-right">
               <p>莲子核桃黑米粥</p>

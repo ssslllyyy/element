@@ -18,5 +18,8 @@
       color: #4d555d;
       text-align: center;
       line-height: 1.70667rem; }
+      .nav-header .nav-list li a {
+        text-decoration: none;
+        color: #4d555d; }
 
 /*# sourceMappingURL=nav.css.map */

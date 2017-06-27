@@ -23,7 +23,7 @@
     <p>粥品香坊其烹饪粥料的秘方源于中国千年古法，再融合现代制作工艺... </p><span>&gt;</span>
   </div>
 </header>
-  <div style="width:100%;height:190px;"></div>
+  <div style="width:100%;height:160px;"></div>
 </div>
 </template>
 

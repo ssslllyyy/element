@@ -3,10 +3,12 @@
 }
 .page-main{
   width:100%;
-  height:rem(960);
+  overflow:hidden;
   .page-main-left{
+    height:rem(660);
     width:rem(160);
     float: left;
+    overflow: auto;
     .page-hot-sell{
       width:rem(160);
       height:rem(108);
@@ -63,8 +65,10 @@
     }
   }
   .page-main-right{
+    height:rem(660);
     width:rem(543);
     float: left;
+    overflow: auto;
      .page-main-right-title{
        width:rem(540);
        height:rem(52);

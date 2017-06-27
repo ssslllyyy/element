@@ -1,9 +1,11 @@
 .page-main {
   width: 100%;
-  height: 20.48rem; }
+  overflow: hidden; }
   .page-main .page-main-left {
+    height: 14.08rem;
     width: 3.41333rem;
-    float: left; }
+    float: left;
+    overflow: auto; }
     .page-main .page-main-left .page-hot-sell {
       width: 3.41333rem;
       height: 2.304rem;
@@ -49,8 +51,10 @@
         border-bottom: 1px solid #E2E4E7;
         width: 2.38933rem; }
   .page-main .page-main-right {
+    height: 14.08rem;
     width: 11.584rem;
-    float: left; }
+    float: left;
+    overflow: auto; }
     .page-main .page-main-right .page-main-right-title {
       width: 11.52rem;
       height: 1.10933rem;

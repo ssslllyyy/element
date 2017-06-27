@@ -5,7 +5,7 @@
   background: white;
   position: fixed;
   left:0;
-  top:rem(270);
+  top:rem(260);
   width:100%;
   height:rem(80);
   border-bottom:1px solid rgba(7,17,27,0.1);
@@ -22,6 +22,10 @@
       color:rgb(77,85,93);
       text-align: center;
       line-height: rem(80);
+      a{
+        text-decoration: none;
+        color:rgb(77,85,93);
+      }
     }
   }
 }
