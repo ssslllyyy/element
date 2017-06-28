@@ -1,44 +1,16 @@
 .page-main {
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: 7.25333rem; }
   .page-main .page-main-left {
-    height: 14.08rem;
+    height: 17.06667rem;
     width: 3.41333rem;
     float: left;
     overflow: auto; }
-    .page-main .page-main-left .page-hot-sell {
-      width: 3.41333rem;
-      height: 2.304rem;
-      background: #f3f5f7;
-      font-size: 0.512rem;
-      color: #767B80;
-      font-weight: 200;
-      line-height: 2.304rem; }
-      .page-main .page-main-left .page-hot-sell p {
-        margin-left: 0.512rem; }
-    .page-main .page-main-left .page-hot-style {
-      width: 3.41333rem;
-      height: 2.304rem;
+    .page-main .page-main-left .page-hot-food:hover {
       background: white; }
-      .page-main .page-main-left .page-hot-style .page-box {
-        width: 2.496rem;
-        height: 1.32267rem;
-        margin-left: 0.512rem; }
-        .page-main .page-main-left .page-hot-style .page-box img {
-          width: 0.61867rem;
-          height: 0.61867rem;
-          margin-top: 0.64rem; }
-        .page-main .page-main-left .page-hot-style .page-box .first {
-          font-size: 0.512rem;
-          color: #767B80;
-          line-height: 0.59733rem;
-          margin-top: -0.68267rem;
-          margin-left: 0.64rem; }
-        .page-main .page-main-left .page-hot-style .page-box p:last-child {
-          font-size: 0.512rem;
-          color: #767B80;
-          line-height: 0.59733rem; }
     .page-main .page-main-left .page-hot-food {
+      overflow: hidden;
       width: 3.41333rem;
       height: 2.304rem;
       background: #f3f5f7;
@@ -51,12 +23,11 @@
         border-bottom: 1px solid #E2E4E7;
         width: 2.38933rem; }
   .page-main .page-main-right {
-    height: 14.08rem;
+    height: 17.06667rem;
     width: 11.584rem;
     float: left;
     overflow: auto; }
     .page-main .page-main-right .page-main-right-title {
-      width: 11.52rem;
       height: 1.10933rem;
       background: #f3f5f7;
       font-size: 0.512rem;

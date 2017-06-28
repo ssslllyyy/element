@@ -4,52 +4,17 @@
 .page-main{
   width:100%;
   overflow:hidden;
+  margin-top: rem(340);
   .page-main-left{
-    height:rem(660);
+    height:rem(800);
     width:rem(160);
     float: left;
     overflow: auto;
-    .page-hot-sell{
-      width:rem(160);
-      height:rem(108);
-      background: #f3f5f7;
-      font-size: rem(24);
-      color:#767B80;
-      font-weight: 200;
-      line-height: rem(108);
-      p{
-        margin-left: rem(24);
-      }
-    }
-    .page-hot-style{
-      width:rem(160);
-      height:rem(108);
-      background: rgb(255,255,255);
-      .page-box{
-        width:rem(117);
-        height:rem(62);
-        margin-left: rem(24);
-        img{
-          width:rem(29);
-          height:rem(29);
-        margin-top: rem(30);
-        }
-        .first{
-          font-size: rem(24);
-          color:#767B80;
-          line-height: rem(28);
-          margin-top: rem(-32);
-          margin-left: rem(30);
-        }
-        p:last-child{
-          font-size: rem(24);
-          color:#767B80;
-          line-height: rem(28);
-        }
-      }
-
+    .page-hot-food:hover{
+      background: white;
     }
     .page-hot-food{
+      overflow: hidden;
       width:rem(160);
       height:rem(108);
       background: #f3f5f7;
@@ -65,12 +30,12 @@
     }
   }
   .page-main-right{
-    height:rem(660);
+    height:rem(800);
     width:rem(543);
     float: left;
     overflow: auto;
+
      .page-main-right-title{
-       width:rem(540);
        height:rem(52);
        background: #f3f5f7;
        font-size: rem(24);

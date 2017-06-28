@@ -1,6 +1,7 @@
 .evalute-evaluation {
   width: 100%;
-  height: 4.56533rem; }
+  height: 4.56533rem;
+  margin-top: 7.46667rem; }
   .evalute-evaluation .evalute-evaluation-left {
     width: 5.824rem;
     height: 4.56533rem;
@@ -144,6 +145,9 @@
       border-radius: 50%;
       background: gainsboro;
       margin-top: 0.768rem; }
+      .evalute-footer .evalute-user p img {
+        width: 1.19467rem;
+        height: 1.19467rem; }
   .evalute-footer .evalute-user-new {
     width: 12.20267rem;
     height: 5.58933rem;

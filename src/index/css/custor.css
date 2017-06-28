@@ -1,6 +1,168 @@
 .custor-store {
   width: 100%;
-  height: 7.14667rem;
-  border-bottom: 1px solid #e6e7e8; }
+  height: 6.4rem;
+  border-bottom: 1px solid #e6e7e8;
+  margin-top: 7.46667rem; }
+  .custor-store .custor-store-top {
+    width: 13.90933rem;
+    height: 50%;
+    border-bottom: 1px solid #e6e7e8;
+    margin: 0 auto; }
+    .custor-store .custor-store-top .custor-store-left {
+      float: left;
+      margin-top: 0.768rem; }
+      .custor-store .custor-store-top .custor-store-left p:nth-child(1) {
+        font-size: 0.59733rem;
+        color: #07111b;
+        line-height: 0.59733rem; }
+      .custor-store .custor-store-top .custor-store-left .custor-store-list {
+        margin-top: 0.34133rem; }
+        .custor-store .custor-store-top .custor-store-left .custor-store-list li:nth-child(1) {
+          margin-left: 0; }
+        .custor-store .custor-store-top .custor-store-left .custor-store-list li {
+          width: 0.64rem;
+          height: 0.64rem;
+          background: url("../../index/img/star24_on@3x.png");
+          background-size: 100% 100%;
+          float: left;
+          margin-left: 0.21333rem; }
+        .custor-store .custor-store-top .custor-store-left .custor-store-list li:nth-child(5) {
+          background: url("../../index/img/star24_off@3x.png");
+          background-size: 100% 100%; }
+      .custor-store .custor-store-top .custor-store-left p:last-child {
+        margin-left: 4.58667rem;
+        margin-top: -0.85333rem; }
+        .custor-store .custor-store-top .custor-store-left p:last-child span {
+          font-size: 0.59733rem;
+          color: #07111b; }
+        .custor-store .custor-store-top .custor-store-left p:last-child span:last-child {
+          margin-left: 0.21333rem; }
+    .custor-store .custor-store-top .custor-store-right {
+      float: right;
+      margin-top: 0.768rem;
+      text-align: center; }
+      .custor-store .custor-store-top .custor-store-right span {
+        font-size: 0.81067rem;
+        color: #f01414; }
+      .custor-store .custor-store-top .custor-store-right p:last-child {
+        font-size: 0.42667rem;
+        color: #4d555d;
+        margin-top: 0.17067rem; }
+  .custor-store .custor-store-bottom {
+    width: 13.90933rem;
+    height: 50%;
+    margin: 0 auto; }
+    .custor-store .custor-store-bottom div {
+      width: 33.1%;
+      border-right: 1px solid #e6e7e8;
+      margin-top: 0.768rem;
+      margin-bottom: 0.768rem;
+      text-align: center;
+      float: left; }
+      .custor-store .custor-store-bottom div p:first-child {
+        font-size: 0.42667rem;
+        color: #93999f; }
+      .custor-store .custor-store-bottom div p:last-child {
+        margin-top: 0.17067rem;
+        font-size: 1.024rem;
+        font-weight: 4.26667rem;
+        color: #07111b; }
+        .custor-store .custor-store-bottom div p:last-child span {
+          font-size: 0.42667rem; }
+    .custor-store .custor-store-bottom div:nth-child(3) {
+      border: none; }
+
+.custor-division {
+  width: 100%;
+  height: 0.72533rem;
+  border-top: 1px solid #e6e7e8;
+  border-bottom: 2px solid #e6e7e8;
+  background: #f3f5f7; }
+
+.custor-center {
+  width: 100%; }
+  .custor-center .custor-center-content {
+    width: 13.90933rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e7e8; }
+    .custor-center .custor-center-content div:first-child {
+      font-size: 0.55467rem;
+      color: #07111b;
+      margin: 0.768rem 0 0 0; }
+    .custor-center .custor-center-content div:last-child {
+      font-weight: 200;
+      font-size: 0.512rem;
+      color: #f47171;
+      margin: 0.576rem 0 0.64rem 0.512rem;
+      line-height: 1.024rem; }
+  .custor-center .custor-center-active {
+    width: 13.90933rem;
+    height: 2.048rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e7e8; }
+    .custor-center .custor-center-active p {
+      line-height: 2.048rem; }
+      .custor-center .custor-center-active p span:first-child {
+        margin-top: 0.64rem;
+        margin-left: 0.512rem;
+        float: left;
+        display: block;
+        width: 0.68267rem;
+        height: 0.68267rem; }
+      .custor-center .custor-center-active p span:last-child {
+        margin-left: 0.256rem;
+        float: left;
+        font-size: 0.512rem;
+        font-weight: 200;
+        color: #07111b;
+        display: block; }
+      .custor-center .custor-center-active p .custor-img1 {
+        background: url("../../index/img/decrease_3@3x.png");
+        background-size: 100% 100%; }
+      .custor-center .custor-center-active p .custor-img2 {
+        background: url("../../index/img/discount_3@3x.png");
+        background-size: 100% 100%; }
+      .custor-center .custor-center-active p .custor-img3 {
+        background: url("../../index/img/special_3@3x.png");
+        background-size: 100% 100%; }
+      .custor-center .custor-center-active p .custor-img4 {
+        background: url("../../index/img/special_3@3x.png");
+        background-size: 100% 100%; }
+      .custor-center .custor-center-active p .custor-img5 {
+        background: url("../../index/img/invoice_1@3x.png");
+        background-size: 100% 100%; }
+      .custor-center .custor-center-active p .custor-img6 {
+        background: url("../../index/img/guarantee_1@3x.png");
+        background-size: 100% 100%; }
+
+.custor-live-action {
+  width: 100%;
+  height: 6.44267rem;
+  border: 1px solid transparent; }
+  .custor-live-action .custor-live-action-title {
+    margin: 0.768rem 0 0.512rem 0.768rem;
+    font-size: 0.64rem;
+    color: #07111b; }
+  .custor-live-action .custor-live-action-img {
+    margin-left: 0.512rem; }
+    .custor-live-action .custor-live-action-img p {
+      background: url("../../index/img/2017-06-28_110144.png");
+      width: 4.544rem;
+      height: 3.84rem;
+      background-size: 100% 100%;
+      margin-left: 0.256rem;
+      float: left; }
+    .custor-live-action .custor-live-action-img p:nth-child(3) {
+      margin-right: 0; }
+
+.custor-store-new {
+  margin-bottom: 2.13333rem; }
+  .custor-store-new .custor-store-new-title {
+    width: 13.90933rem;
+    padding: 0.768rem 0 0.512rem 0;
+    margin: 0 auto;
+    font-size: 0.64rem;
+    color: #07111b;
+    border-bottom: 1px solid #e6e7e8; }
 
 /*# sourceMappingURL=custor.css.map */

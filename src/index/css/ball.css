@@ -1,0 +1,58 @@
+#app {
+  width: 100%;
+  height: 32rem;
+  overflow: hidden; }
+
+.ball-box {
+  width: 100%;
+  height: 32rem;
+  background: #363f47;
+  border: 1px solid transparent; }
+  .ball-box .ball-top {
+    width: 100%;
+    height: 6.74133rem; }
+    .ball-box .ball-top .ball-title {
+      width: 100%;
+      height: 0.68267rem;
+      font-size: 0.68267rem;
+      font-weight: 14.93333rem;
+      color: white;
+      line-height: 0.68267rem;
+      text-align: center;
+      margin-top: 2.73067rem; }
+    .ball-box .ball-top .ball-start {
+      height: 1.024rem;
+      width: 100%; }
+      .ball-box .ball-top .ball-start .ball-list {
+        height: 1.024rem;
+        margin-left: 2.26133rem;
+        margin-top: 0.68267rem; }
+        .ball-box .ball-top .ball-start .ball-list li {
+          float: left;
+          background: url("../../index/img/star24_on@3x.png");
+          background-size: 100% 100%;
+          width: 1.024rem;
+          height: 1.024rem;
+          margin-left: 0.85333rem; }
+        .ball-box .ball-top .ball-start .ball-list li:last-child {
+          background: url("../../index/img/star24_off@3x.png");
+          background-size: 100% 100%;
+          width: 1.024rem;
+          height: 1.024rem; }
+    .ball-box .ball-top .ball-special-offers {
+      color: #61676d;
+      margin-left: 1.536rem;
+      margin-top: 0.98133rem; }
+      .ball-box .ball-top .ball-special-offers span {
+        font-size: 0.64rem;
+        color: white;
+        font-weight: 700;
+        margin-left: 0.512rem;
+        margin-right: 0.512rem; }
+    .ball-box .ball-top .ball-special-offers-box {
+      width: 12.97067rem;
+      height: 7.89333rem;
+      margin: 0 auto;
+      background: red; }
+
+/*# sourceMappingURL=ball.css.map */

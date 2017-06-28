@@ -1,0 +1,70 @@
+@function rem($px){
+  @return $px/46.875+rem
+}
+#app{
+  width:100%;
+  height:rem(1500);
+  overflow: hidden;
+}
+.ball-box{
+  width:100%;
+  height:rem(1500);
+  background: #363f47;
+  border:1px solid transparent;
+  .ball-top{
+    width:100%;
+    height:rem(316);
+    .ball-title{
+      width:100%;
+      height:rem(32);
+      font-size: rem(32);
+      font-weight: rem(700);
+      color:rgb(255,255,255);
+      line-height: rem(32);
+      text-align: center;
+      margin-top: rem(128);
+    }
+    .ball-start{
+      height:rem(48);
+      width:100%;
+      .ball-list{
+        height:rem(48);
+        margin-left: rem(106);
+        margin-top: rem(32);
+        li{
+          float: left;
+          background: url("../../index/img/star24_on@3x.png");
+          background-size: 100% 100%;
+          width:rem(48);
+          height:rem(48);
+          margin-left: rem(40);
+        }
+        li:last-child{
+          background: url("../../index/img/star24_off@3x.png");
+          background-size: 100% 100%;
+          width:rem(48);
+          height:rem(48);
+        }
+      }
+    }
+    .ball-special-offers{
+      color:#61676d;
+      margin-left: rem(72);
+      margin-top: rem(46);
+      span{
+        font-size: rem(30);
+        color:rgb(255,255,255);
+        font-weight: 700;
+        margin-left: rem(24);
+        margin-right: rem(24);
+      }
+
+    }
+    .ball-special-offers-box{
+      width:rem(608);
+      height:rem(370);
+      margin:  0 auto;
+      background: red;
+    }
+  }
+}

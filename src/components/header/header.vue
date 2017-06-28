@@ -7,11 +7,11 @@
 
   </div>
   <div class="header-title">
-    <img src="../../index/img/brand@2x.png" alt="">
-    <p>粥品香坊（大运村）</p>
+    <img :src="results.avatar" alt="">
+    <p>{{results.name}}</p>
   </div>
   <div class="header-title1">
-   蜂鸟专送 / 38分钟送达
+   {{results.description}} / {{results.deliveryTime}}分钟送达
   </div>
   <div class="header-title2">
     <img src="../../index/img/decrease_1@2x.png" alt="">
@@ -20,16 +20,31 @@
   </div>
   <div class="header-bottom">
     <img src="../../index/img/bulletin@2x.png" alt="">
-    <p>粥品香坊其烹饪粥料的秘方源于中国千年古法，再融合现代制作工艺... </p><span>&gt;</span>
+    <p>{{results.bulletin}}</p><span>&gt;</span>
   </div>
 </header>
-  <div style="width:100%;height:160px;"></div>
+
 </div>
 </template>
 
 <script>
+  import axios from 'axios';
     export default {
-
+      data() {
+        return {
+          results: [],
+          flag: true
+        };
+      },
+      mounted () {
+        axios.get('api/seller').then(res => {
+          this.results = res.data.data;
+          this.flag = false;
+          console.log(this.results);
+        }).catch(function (err) {
+          console.log(err);
+        });
+      }
     };
 </script>
 

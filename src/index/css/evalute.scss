@@ -4,6 +4,7 @@
 .evalute-evaluation{
   width:100%;
   height:rem(214);
+  margin-top: rem(350);
   .evalute-evaluation-left{
     width:rem(273);
     height:rem(214);
@@ -172,6 +173,10 @@ margin:  rem(36) 0 0 rem(48);
       border-radius: 50%;
       background: gainsboro;
       margin-top: rem(36);
+      img{
+        width:rem(56);
+        height:rem(56);
+      }
     }
   }
   .evalute-user-new{

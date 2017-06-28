@@ -6,12 +6,14 @@ import header from './components/header/header.vue';
 import nav from './components/nav/nav.vue';
 import footer from './components/footer/footer.vue';
 import detail from './components/detail/detail.vue';
+import ball from './components/ball/ball.vue';
 import router from './router';
 Vue.config.productionTip = false;
 Vue.use(header);
 Vue.use(nav);
 Vue.use(footer);
 Vue.use(detail);
+Vue.use(ball);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
